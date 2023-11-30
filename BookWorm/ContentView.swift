@@ -6,16 +6,18 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+  @Environment(\.modelContext) var modelContext
+  @Query var students: [Student]
+  
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+      NavigationStack {
+        List(students) { student in
+          Text(student.name)
         }
-        .padding()
+      }
     }
 }
 
