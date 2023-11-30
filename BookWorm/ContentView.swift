@@ -10,7 +10,7 @@ import SwiftData
 
 struct ContentView: View {
   @Environment(\.modelContext) var modelContext
-  @Query var books: [Book]
+  @Query(sort: \Book.title) var books: [Book]
   
   @State private var showingAddScreen = false
   
@@ -51,5 +51,8 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+  let preview = Preview(Book.self)
+  preview.addExamples(Book.sampleBooks)
+    return ContentView()
+    .modelContainer(preview.container)
 }
