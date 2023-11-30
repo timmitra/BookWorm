@@ -17,6 +17,20 @@ struct ContentView: View {
         List(students) { student in
           Text(student.name)
         }
+        .navigationTitle("Classroom")
+        .toolbar {
+          Button("Add") {
+            let firstNames = ["Ginny", "Harry", "Hermione", "Ron", "Luna"]
+            let lastNames = ["Granger", "Lovegood", "Potter", "Weasly"]
+            
+            let chosenFirstName = firstNames.randomElement()!
+            let chosenLastName = lastNames.randomElement()!
+            
+            // more to come
+            let student = Student(id: UUID(), name: "\(chosenFirstName) \(chosenLastName)")
+            modelContext.insert(student)
+          }
+        }
       }
     }
 }
