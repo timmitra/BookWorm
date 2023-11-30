@@ -13,6 +13,7 @@
 		2AF95AC92B1855DA001F9520 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF95AC82B1855DA001F9520 /* Preview Assets.xcassets */; };
 		2AF95AD22B185A35001F9520 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF95AD12B185A35001F9520 /* Book.swift */; };
 		2AF95AD42B185AF6001F9520 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF95AD32B185AF6001F9520 /* AddBookView.swift */; };
+		2AF95AD62B186763001F9520 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF95AD52B186763001F9520 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2AF95AC82B1855DA001F9520 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2AF95AD12B185A35001F9520 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		2AF95AD32B185AF6001F9520 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		2AF95AD52B186763001F9520 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				2AF95AC52B1855DA001F9520 /* Assets.xcassets */,
 				2AF95AC72B1855DA001F9520 /* Preview Content */,
 				2AF95AD32B185AF6001F9520 /* AddBookView.swift */,
+				2AF95AD52B186763001F9520 /* RatingView.swift */,
 			);
 			path = BookWorm;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				2AF95AC42B1855D8001F9520 /* ContentView.swift in Sources */,
 				2AF95AC22B1855D8001F9520 /* BookWormApp.swift in Sources */,
 				2AF95AD22B185A35001F9520 /* Book.swift in Sources */,
+				2AF95AD62B186763001F9520 /* RatingView.swift in Sources */,
 				2AF95AD42B185AF6001F9520 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
