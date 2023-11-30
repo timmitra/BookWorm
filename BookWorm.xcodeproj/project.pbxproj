@@ -11,7 +11,7 @@
 		2AF95AC42B1855D8001F9520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF95AC32B1855D8001F9520 /* ContentView.swift */; };
 		2AF95AC62B1855DA001F9520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF95AC52B1855DA001F9520 /* Assets.xcassets */; };
 		2AF95AC92B1855DA001F9520 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF95AC82B1855DA001F9520 /* Preview Assets.xcassets */; };
-		2AF95AD02B185600001F9520 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF95ACF2B185600001F9520 /* Student.swift */; };
+		2AF95AD22B185A35001F9520 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF95AD12B185A35001F9520 /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		2AF95AC32B1855D8001F9520 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AF95AC52B1855DA001F9520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AF95AC82B1855DA001F9520 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2AF95ACF2B185600001F9520 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		2AF95AD12B185A35001F9520 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +55,9 @@
 			children = (
 				2AF95AC12B1855D8001F9520 /* BookWormApp.swift */,
 				2AF95AC32B1855D8001F9520 /* ContentView.swift */,
+				2AF95AD12B185A35001F9520 /* Book.swift */,
 				2AF95AC52B1855DA001F9520 /* Assets.xcassets */,
 				2AF95AC72B1855DA001F9520 /* Preview Content */,
-				2AF95ACF2B185600001F9520 /* Student.swift */,
 			);
 			path = BookWorm;
 			sourceTree = "<group>";
@@ -141,8 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF95AC42B1855D8001F9520 /* ContentView.swift in Sources */,
-				2AF95AD02B185600001F9520 /* Student.swift in Sources */,
 				2AF95AC22B1855D8001F9520 /* BookWormApp.swift in Sources */,
+				2AF95AD22B185A35001F9520 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
